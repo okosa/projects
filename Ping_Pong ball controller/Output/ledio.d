@@ -1,0 +1,14 @@
+.\output\ledio.o: ledio.c
+.\output\ledio.o: ledIO.h
+.\output\ledio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\ledio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+.\output\ledio.o: .\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h
+.\output\ledio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h
+.\output\ledio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ledio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\output\ledio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\output\ledio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\output\ledio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h
+.\output\ledio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
+.\output\ledio.o: registers.h
+.\output\ledio.o: util.h

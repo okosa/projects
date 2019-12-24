@@ -1,0 +1,170 @@
+Dependencies for Project 'Simple-FreeRTOS-Demo', Target 'Simple-FreeRTOS-Demo': (DO NOT MODIFY !)
+F (.\startup_MPS_CM3.s)(0x5DC4B96E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "STM32F10X_XL SETA 1"--list .\startup_mps_cm3.lst --xref -o .\output\startup_mps_cm3.o --depend .\output\startup_mps_cm3.d)
+F (.\main.c)(0x5DFE982C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (.\FreeRTOS-Source\include\FreeRTOS.h)(0x5DC4B96E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\projdefs.h)(0x5DC4B96E)
+I (.\FreeRTOSConfig.h)(0x5DC4B96C)
+I (.\FreeRTOS-Source\include\portable.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\mpu_wrappers.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\task.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\list.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\queue.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\timers.h)(0x5DC4B96E)
+I (serial.h)(0x5DFE98EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h)(0x5DC4B97A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B623564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B200374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5908A6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (CLI.h)(0x5DFE9867)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (pwm.h)(0x5DFE95C7)
+I (a2d.h)(0x5DFE98A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+F (.\FreeRTOSConfig.h)(0x5DC4B96C)()
+F (.\CLI.c)(0x5DFE9850)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\cli.o --omf_browse .\output\cli.crf --depend .\output\cli.d)
+I (CLI.h)(0x5DFE9867)
+I (serial.h)(0x5DFE98EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h)(0x5DC4B97A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B623564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B200374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5908A6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+F (.\CLI.h)(0x5DFE9867)()
+F (.\serial.c)(0x5DFE98D2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\serial.o --omf_browse .\output\serial.crf --depend .\output\serial.d)
+I (serial.h)(0x5DFE98EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h)(0x5DC4B97A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B623564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B200374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5908A6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (registers.h)(0x5DFE94D2)
+I (util.h)(0x5DFE94F5)
+F (.\serial.h)(0x5DFE98EE)()
+F (.\registers.c)(0x5DFE94BB)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\registers.o --omf_browse .\output\registers.crf --depend .\output\registers.d)
+I (registers.h)(0x5DFE94D2)
+I (util.h)(0x5DFE94F5)
+F (.\registers.h)(0x5DFE94D2)()
+F (.\util.h)(0x5DFE94F5)()
+F (.\a2d.c)(0x5DFE988B)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\a2d.o --omf_browse .\output\a2d.crf --depend .\output\a2d.d)
+I (a2d.h)(0x5DFE98A6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h)(0x5DC4B97A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B623564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B200374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5908A6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (serial.h)(0x5DFE98EE)
+I (CLI.h)(0x5DFE9867)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (registers.h)(0x5DFE94D2)
+I (util.h)(0x5DFE94F5)
+F (.\a2d.h)(0x5DFE98A6)()
+F (.\PWM.c)(0x5DFE95A7)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\pwm.o --omf_browse .\output\pwm.crf --depend .\output\pwm.d)
+I (PWM.h)(0x5DFE95C7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (registers.h)(0x5DFE94D2)
+I (util.h)(0x5DFE94F5)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h)(0x5DC4B97A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B200374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5908A6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+F (.\PWM.h)(0x5DFE95C7)()
+F (.\ledio.c)(0x5DFE96C2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\ledio.o --omf_browse .\output\ledio.crf --depend .\output\ledio.d)
+I (ledIO.h)(0x5DFE96AB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h)(0x5DC4B97A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B623564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B200374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5908A6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B623564)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (registers.h)(0x5DFE94D2)
+I (util.h)(0x5DFE94F5)
+F (.\ledIO.h)(0x5DFE96AB)()
+F (.\FreeRTOS-Source\tasks.c)(0x5DC4B96E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\tasks.o --omf_browse .\output\tasks.crf --depend .\output\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\FreeRTOS.h)(0x5DC4B96E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\projdefs.h)(0x5DC4B96E)
+I (.\FreeRTOSConfig.h)(0x5DC4B96C)
+I (.\FreeRTOS-Source\include\portable.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\mpu_wrappers.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\task.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\list.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\timers.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\StackMacros.h)(0x5DC4B96E)
+F (.\FreeRTOS-Source\list.c)(0x5DC4B96E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\list.o --omf_browse .\output\list.crf --depend .\output\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\FreeRTOS.h)(0x5DC4B96E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\projdefs.h)(0x5DC4B96E)
+I (.\FreeRTOSConfig.h)(0x5DC4B96C)
+I (.\FreeRTOS-Source\include\portable.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\mpu_wrappers.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\list.h)(0x5DC4B96E)
+F (.\FreeRTOS-Source\queue.c)(0x5DC4B96E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\queue.o --omf_browse .\output\queue.crf --depend .\output\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\FreeRTOS.h)(0x5DC4B96E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\projdefs.h)(0x5DC4B96E)
+I (.\FreeRTOSConfig.h)(0x5DC4B96C)
+I (.\FreeRTOS-Source\include\portable.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\mpu_wrappers.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\task.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\list.h)(0x5DC4B96E)
+F (.\FreeRTOS-Source\portable\RVDS\ARM_CM3\port.c)(0x5DC4B96E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\port.o --omf_browse .\output\port.crf --depend .\output\port.d)
+I (.\FreeRTOS-Source\include\FreeRTOS.h)(0x5DC4B96E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\projdefs.h)(0x5DC4B96E)
+I (.\FreeRTOSConfig.h)(0x5DC4B96C)
+I (.\FreeRTOS-Source\include\portable.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\mpu_wrappers.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\task.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\list.h)(0x5DC4B96E)
+F (.\FreeRTOS-Source\portable\MemMang\heap_1.c)(0x5DC4B96E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I . -I .\FreeRTOS-Source\include -I .\FreeRTOS-Source\portable\RVDS\ARM_CM3-I.\RTE\_Simple-FreeRTOS-Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_XL-o .\output\heap_1.o --omf_browse .\output\heap_1.crf --depend .\output\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\FreeRTOS.h)(0x5DC4B96E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\FreeRTOS-Source\include\projdefs.h)(0x5DC4B96E)
+I (.\FreeRTOSConfig.h)(0x5DC4B96C)
+I (.\FreeRTOS-Source\include\portable.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\mpu_wrappers.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\task.h)(0x5DC4B96E)
+I (.\FreeRTOS-Source\include\list.h)(0x5DC4B96E)

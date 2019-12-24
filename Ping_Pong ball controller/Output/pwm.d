@@ -1,0 +1,13 @@
+.\output\pwm.o: PWM.c
+.\output\pwm.o: PWM.h
+.\output\pwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\pwm.o: registers.h
+.\output\pwm.o: util.h
+.\output\pwm.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+.\output\pwm.o: .\RTE\_Simple-FreeRTOS-Demo\RTE_Components.h
+.\output\pwm.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h
+.\output\pwm.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\output\pwm.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\output\pwm.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\output\pwm.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h
+.\output\pwm.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
